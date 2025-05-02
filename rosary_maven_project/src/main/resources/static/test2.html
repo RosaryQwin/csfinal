@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RSA Signer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="signer.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🔏 Sign a Message</h2>
+    <form action="/sign" method="post">
+      <label>Item QTY:</label>
+      <input type="text" name="item_units" required />
+
+      <label>Item ID:</label>
+      <input type="text" name="item_id" required />
+
+      <label>Item Price:</label>
+      <input type="text" name="item_price" required />
+
+      <label>Location:</label>
+      <select name="inventory_id" required>
+        <option value="">-- Select Inventory --</option>
+        <option value="A">Inventory A</option>
+        <option value="B">Inventory B</option>
+        <option value="C">Inventory C</option>
+        <option value="D">Inventory D</option>
+      </select>
+
+      <button type="submit">Sign</button>
+    </form>
+  </div>
+</body>
+</html>

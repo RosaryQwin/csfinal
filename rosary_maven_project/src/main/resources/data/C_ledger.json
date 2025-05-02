@@ -1,0 +1,11 @@
+[ {
+  "item_id" : "1",
+  "item_qty" : "32",
+  "item_price" : "12",
+  "item_Location" : "D"
+}, {
+  "item_id" : "2",
+  "item_qty" : "20",
+  "item_price" : "14",
+  "item_Location" : "C"
+} ]
